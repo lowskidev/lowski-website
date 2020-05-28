@@ -1,7 +1,7 @@
 {
   "name": "@lowskidev/lowski-website",
   "version": "1.0.0",
-  "homepage": "https://lowski.dev/",
+  "homepage": "https://lowskidev.github.io/lowski-website/",
   "description": "LowSki Website",
   "main": "build/index.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "@types/material-ui": "^0.21.7",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^5.1.0",
+    "gh-pages": "^2.2.0",
     "jest": "24.9.0",
     "react-scripts": "^3.4.1",
     "ts-jest": "^24.0.2",
