@@ -55,8 +55,6 @@ const AboutUsPage: React.FC = () => {
         </Typography>
         <Typography align="center" color="textSecondary" component="p">
           Step into our REALM
-          <br />
-          -Team Ethernode
         </Typography>
       </Container>
       {/* End hero unit */}

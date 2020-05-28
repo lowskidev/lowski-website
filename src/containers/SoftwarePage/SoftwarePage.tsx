@@ -69,8 +69,6 @@ const SoftwarePage: React.FC = () => {
         </Typography>
         <Typography align="center" color="textSecondary" component="p">
           Blockchain software for next generation of Web3 development.
-          <br />
-          -Team Ethernode
         </Typography>
       </Container>
       {/* End hero unit */}
