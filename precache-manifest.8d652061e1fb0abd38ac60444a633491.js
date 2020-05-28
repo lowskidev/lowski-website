@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9764bae392446f8cf074d30b9aecf67",
+    "revision": "25ea52fdf124de3c5057d60fdcaecdd7",
     "url": "/lowski-website/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lowski-website/static/js/2.b605876a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "547615a2c380fe432884",
-    "url": "/lowski-website/static/js/main.0bf8fa46.chunk.js"
+    "revision": "f50087d821ce617633a5",
+    "url": "/lowski-website/static/js/main.9de3b70d.chunk.js"
   },
   {
     "revision": "6c498ab6e858af5b7b15",
