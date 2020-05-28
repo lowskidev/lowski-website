@@ -1,12 +1,13 @@
 {
-  "name": "@ethernodeio/ethernodeweb",
+  "name": "@lowskidev/lowski-website",
   "version": "1.0.0",
-  "homepage": "https://ethernode.io/",
-  "description": "Ethernode Website",
+  "homepage": "https://lowski.dev/",
+  "description": "LowSki Website",
   "main": "build/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "lint": "tslint --fix -p .",
     "test": "npm run lint && react-scripts test --coverage --passWithNoTests"
   },
