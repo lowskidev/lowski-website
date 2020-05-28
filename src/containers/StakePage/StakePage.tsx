@@ -54,17 +54,14 @@ const StakePage: React.FC = () => {
           Cardano Bakon Stake Pool (BKN)
         </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          Ethernode is also participating in the Cardano Shelly Incentivised test net by running our own staking pool on the EnKeep hardware.
+          LowSki is also participating in the Cardano Shelly Incentivised test net by running our own staking pool on the EnKeep hardware.
           For the testing phase we will be running a docker container between the enKeep hardware and a worker node in a data center for a fail over.
           Even though the enKeep software is stable, the Jormungandr software is still in testing phases. This allows us to give our delegators the highest
           possible up times achievable during a testing phase.
-          <br />
-          During the beta tests we will build out our software and frontend not to just support running Ethereum based blockchain nodes.
-          But also a full Cardano Staking node with a interface to either, delegate your ADA, run yor own dtaking operation or even a staking pool.
           <br /><br />
           Please check out the information below about our staking pool ID and how you can delegate your ADA to the Bakon staking pool.
           <br /><br />
-          -Team Ethernode
+          -Team LowSki
         </Typography>
       </Container>
       {/* End hero unit */}

@@ -33,9 +33,6 @@ export const Navigation = () => {
           <Link to="/hardware" className={classes.navlink}>
             <Button>Hardware</Button>
           </Link>
-          <Link to="/store" className={classes.navlink}>
-            <Button>Store</Button>
-          </Link>
         </nav>
       </Toolbar>
     </AppBar>
