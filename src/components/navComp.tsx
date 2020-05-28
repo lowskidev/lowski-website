@@ -14,8 +14,8 @@ export const Navigation = () => {
   return (
     <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
-        <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-          <img src={logo} alt="logo" height="50" />
+        <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle} >
+          <img src={logo} alt="logo" height="50" /> LowSki.dev
         </Typography>
         <nav>
           <Link to="/home" className={classes.navlink}>
