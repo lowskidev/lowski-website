@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3894b1c544b9a244f9977b3c86c8e2ca",
+    "revision": "6a743db8ff64674ae1b29f57611d6a32",
     "url": "/lowski-website/index.html"
   },
   {
-    "revision": "1100f259dae632e0bd42",
-    "url": "/lowski-website/static/js/2.25a37bdc.chunk.js"
+    "revision": "8cd23a61f99b352ba887",
+    "url": "/lowski-website/static/js/2.74081b77.chunk.js"
   },
   {
     "revision": "4f4f8e381b1360c68c2230a854023450",
-    "url": "/lowski-website/static/js/2.25a37bdc.chunk.js.LICENSE.txt"
+    "url": "/lowski-website/static/js/2.74081b77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "670ff49bd052dd566120",
-    "url": "/lowski-website/static/js/main.e3285c55.chunk.js"
+    "revision": "2f0a2cea9a0da3d3b7e3",
+    "url": "/lowski-website/static/js/main.9b34fde7.chunk.js"
   },
   {
     "revision": "6c498ab6e858af5b7b15",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "97157d8dec4227f8bd8a38d2a0b75912",
     "url": "/lowski-website/static/media/EtherNode_4.97157d8d.png"
+  },
+  {
+    "revision": "305f030d24be10043636ae5993c186f7",
+    "url": "/lowski-website/static/media/lowski.305f030d.png"
   }
 ]);
