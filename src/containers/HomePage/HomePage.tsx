@@ -62,24 +62,35 @@ const HomePage: React.FC = () => {
       <Navigation />
       <Container maxWidth="md" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-          *EnKeep Production Update*
+          *What happened to Ethernode?*
       </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          We have been receiving requests about the production status of the EnKeep hardware and its high time for an update.<br /><br />
-          We launched the no-deposit pre-sale sign up in July after 5 months of rigorous product development to gauge demand for EnKeeps and
-          the response was strongly positive but from an unfortunately small group. We were prepared (demand validating) to have injection
-          molds cut for the cases and had supply chain/assembly/shipping ready to go but we were at the end of our limited capital resources
-          and had to call off production.<br /><br />
-          The case is the volume/cost tipping point and injection molding makes obvious sense for higher production, but the up-front cost isn’t justified in this situation.
-          In order to get some hardware in your hands we will begin selling and producing EnKeeps with 3D printed cases in the next couple of weeks.
-          We will do a production run every two weeks with a minimum of 10 units per run. We’ve had to adjust the price to reflect the additional cost of case production,
-          but these will be 100% printed and assembled in CO, USA.
-          <br /><br />
-          Thanks for your patience and support. As always, the full suite of Ethernode software is available on our <a href="https://github.com/ethernodeio" target="_blank">GitHub</a>.
-          <br /><br />
-          -Aaron and Maciej,
+          Maciej and I started Ethernode in 2018 to develop tools that simplify running nodes for evm blockchain networks.
+          We hold that the chief value proposition of public “decentralized” is minimizing dependencies on trusted 3rd parties.
           <br />
-          Team Ethernode
+          <img src="https://pbs.twimg.com/media/EY-alg_UMAAfl0D?format=jpg&name=large" width="600" />
+          <br /><br />
+          The decentralized nature of these networks and the ability to leverage that value proposition depend on direct user 
+          participation in the network by running nodes and developers building dApps that run entirely client-side and interact 
+          with the blockchain through the user’s node.
+          <br />
+          <img src="https://pbs.twimg.com/media/EY-cJAbUEAAvAeU?format=jpg&name=900x900" />
+          <br /><br />
+          We made the decision to shutter Ethernode at the end of 2019 after clear evidence that there are not enough people serious 
+          about participating in decentralized, secure, p2p blockchain networks to justify pursuing the effort as a business.
+          <br />
+          <img src="https://pbs.twimg.com/media/EY-c4iUUYAAc-ij?format=jpg&name=small" />
+          <br /><br />
+          The resources we developed as Ethernode have always been open source and entirely free and will continue to be maintained, 
+          expanded, and available from our new github page at https://github.com/lowskidev
+          <br />
+          <img src="https://pbs.twimg.com/media/EY-e1NqUMAAVbVN?format=jpg&name=small" />
+          <br /><br />
+          We will be releasing OS images for the RockPro64 and pi4 soon so users can source the hardware of their choice and start running nodes and using the API and other utilities quickly and easily.
+          <br />
+          <img src="https://pbs.twimg.com/media/EY-fFoYUYAAAo_F?format=png&name=360x360" />
+          <br /><br />
+          The principles that drove us to undertake this endeavor haven’t changed and we won’t stop building. We’ll now being sharing our efforts as LowSki, just a couple of guys trying to contribute some value.
       </Typography>
       </Container>
       {/* Hero unit */}

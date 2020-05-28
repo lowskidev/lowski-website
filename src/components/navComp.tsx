@@ -6,7 +6,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { useStyles } from "../theme/theme";
-import logo from "../assets/EnOS_Icon.png";
+import logo from "../assets/lowski.png";
 
 export const Navigation = () => {
   const classes = useStyles();
