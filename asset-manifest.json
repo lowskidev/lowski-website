@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.e3285c55.chunk.js",
-    "main.js.map": "/static/js/main.e3285c55.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6cf78086.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6cf78086.js.map",
-    "static/js/2.25a37bdc.chunk.js": "/static/js/2.25a37bdc.chunk.js",
-    "static/js/2.25a37bdc.chunk.js.map": "/static/js/2.25a37bdc.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.945d4f402e7d1f1f3a9cb30482005cac.js": "/precache-manifest.945d4f402e7d1f1f3a9cb30482005cac.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.25a37bdc.chunk.js.LICENSE.txt": "/static/js/2.25a37bdc.chunk.js.LICENSE.txt",
-    "static/media/EnAPI_Icon_Text.png": "/static/media/EnAPI_Icon_Text.851cb2d4.png",
-    "static/media/EnKeep_Icon_Text.png": "/static/media/EnKeep_Icon_Text.7871e2be.png",
-    "static/media/EnOS_Icon.png": "/static/media/EnOS_Icon.13304f47.png",
-    "static/media/EnUI_Icon_Text.png": "/static/media/EnUI_Icon_Text.c6b62081.png",
-    "static/media/EtherNode_4.png": "/static/media/EtherNode_4.97157d8d.png"
+    "main.js": "/lowski-website/static/js/main.e3285c55.chunk.js",
+    "main.js.map": "/lowski-website/static/js/main.e3285c55.chunk.js.map",
+    "runtime-main.js": "/lowski-website/static/js/runtime-main.54c78b98.js",
+    "runtime-main.js.map": "/lowski-website/static/js/runtime-main.54c78b98.js.map",
+    "static/js/2.25a37bdc.chunk.js": "/lowski-website/static/js/2.25a37bdc.chunk.js",
+    "static/js/2.25a37bdc.chunk.js.map": "/lowski-website/static/js/2.25a37bdc.chunk.js.map",
+    "index.html": "/lowski-website/index.html",
+    "precache-manifest.5ef88d191206e62ed38f0fcf21864064.js": "/lowski-website/precache-manifest.5ef88d191206e62ed38f0fcf21864064.js",
+    "service-worker.js": "/lowski-website/service-worker.js",
+    "static/js/2.25a37bdc.chunk.js.LICENSE.txt": "/lowski-website/static/js/2.25a37bdc.chunk.js.LICENSE.txt",
+    "static/media/EnAPI_Icon_Text.png": "/lowski-website/static/media/EnAPI_Icon_Text.851cb2d4.png",
+    "static/media/EnKeep_Icon_Text.png": "/lowski-website/static/media/EnKeep_Icon_Text.7871e2be.png",
+    "static/media/EnOS_Icon.png": "/lowski-website/static/media/EnOS_Icon.13304f47.png",
+    "static/media/EnUI_Icon_Text.png": "/lowski-website/static/media/EnUI_Icon_Text.c6b62081.png",
+    "static/media/EtherNode_4.png": "/lowski-website/static/media/EtherNode_4.97157d8d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cf78086.js",
+    "static/js/runtime-main.54c78b98.js",
     "static/js/2.25a37bdc.chunk.js",
     "static/js/main.e3285c55.chunk.js"
   ]
