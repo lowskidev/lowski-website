@@ -15,6 +15,11 @@ import { Navigation } from "../../components/navComp";
 import enKeepIcon from "../../assets/EnKeep_Icon_Text.png";
 import enApiIcon from "../../assets/EnAPI_Icon_Text.png";
 import enUIIcon from "../../assets/EnUI_Icon_Text.png";
+import lowskislide from "../assets/lowskislide.jpeg"
+import sfdevpic from "../assets/sfdevpic.jpeg"
+import notice from "../assets/notice.jpeg"
+import freestuff from "../assets/freestuff.jpeg"
+import rock64pro from "../assets/rock64pro.png"
 
 const tiers = [
   {
@@ -68,27 +73,27 @@ const HomePage: React.FC = () => {
           Maciej and I started Ethernode in 2018 to develop tools that simplify running nodes for evm blockchain networks.
           We hold that the chief value proposition of public “decentralized” is minimizing dependencies on trusted 3rd parties.
           <br />
-          <img src="https://pbs.twimg.com/media/EY-alg_UMAAfl0D?format=jpg&name=large" width="600" />
+          <img src={lowskislide} width="600" />
           <br /><br />
           The decentralized nature of these networks and the ability to leverage that value proposition depend on direct user 
           participation in the network by running nodes and developers building dApps that run entirely client-side and interact 
           with the blockchain through the user’s node.
           <br />
-          <img src="https://pbs.twimg.com/media/EY-cJAbUEAAvAeU?format=jpg&name=900x900" />
+          <img src={sfdevpic} />
           <br /><br />
           We made the decision to shutter Ethernode at the end of 2019 after clear evidence that there are not enough people serious 
           about participating in decentralized, secure, p2p blockchain networks to justify pursuing the effort as a business.
           <br />
-          <img src="https://pbs.twimg.com/media/EY-c4iUUYAAc-ij?format=jpg&name=small" />
+          <img src={notice} />
           <br /><br />
           The resources we developed as Ethernode have always been open source and entirely free and will continue to be maintained, 
           expanded, and available from our new github page at https://github.com/lowskidev
           <br />
-          <img src="https://pbs.twimg.com/media/EY-e1NqUMAAVbVN?format=jpg&name=small" />
+          <img src={freestuff} />
           <br /><br />
           We will be releasing OS images for the RockPro64 and pi4 soon so users can source the hardware of their choice and start running nodes and using the API and other utilities quickly and easily.
           <br />
-          <img src="https://pbs.twimg.com/media/EY-fFoYUYAAAo_F?format=png&name=360x360" />
+          <img src={rock64pro} />
           <br /><br />
           The principles that drove us to undertake this endeavor haven’t changed and we won’t stop building. We’ll now being sharing our efforts as LowSki, just a couple of guys trying to contribute some value.
       </Typography>
