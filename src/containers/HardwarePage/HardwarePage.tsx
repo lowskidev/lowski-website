@@ -18,6 +18,13 @@ import enKeepIcon from "../../assets/EnKeep_Icon_Text.png";
 const tiers = [
   {
     title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
+    subheader: "Hardware-Relay Node",
+    description: ["Rockchip RK3399 SOC", "4GB LPDDR4 RAM", "802.11 AC + BT 4.0/5.0", "NVMe SSD"],
+    buttonText: "More Info",
+    link: "enkeep",
+  },
+  {
+    title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
     subheader: "Hardware",
     description: ["Rockchip RK3399 SOC", "4GB LPDDR4 RAM", "802.11 AC + BT 4.0/5.0", "NVMe SSD"],
     buttonText: "More Info",
@@ -75,7 +82,7 @@ const HardwarePage: React.FC = () => {
         </Grid>
       </Container>
       {/* Footer */}
-      <Footer />>
+      <Footer />
       {/* End footer */}
     </React.Fragment>
   );

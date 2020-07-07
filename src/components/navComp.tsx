@@ -24,14 +24,11 @@ export const Navigation = () => {
           <Link to="/stakepage" className={classes.navlink}>
             <Button>Cardano Stake Pool</Button>
           </Link>
-          <Link to="/aboutus" className={classes.navlink}>
-            <Button>About</Button>
-          </Link>
-          <Link to="/software" className={classes.navlink}>
-            <Button>Software</Button>
-          </Link>
           <Link to="/hardware" className={classes.navlink}>
             <Button>Hardware</Button>
+          </Link>
+          <Link to="/ethernodepage" className={classes.navlink}>
+            <Button>Ethernode</Button>
           </Link>
         </nav>
       </Toolbar>

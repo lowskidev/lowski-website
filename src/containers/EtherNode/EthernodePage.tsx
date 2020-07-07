@@ -58,44 +58,56 @@ const tiers = [
   },
 ];
 
-const HomePage: React.FC = () => {
+const EthernodePage: React.FC = () => {
   const classes = useStyles();
 
   return (
     <React.Fragment>
       <CssBaseline />
       <Navigation />
-      {/* Hero unit */}
-      {/*
       <Container maxWidth="md" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-          Mission
-        </Typography>
+          *What happened to Ethernode?*
+      </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          Blockchain networks have the potential to make meaningful and lasting positive changes, allowing people around the
-          world to communicate, transact, and transfer information privately and securely. At the core of this technology is a
-          powerful principle - trust minimization, reducing or eliminating reliance on 3rd parties for formal verification.
+          Maciej and I started Ethernode in 2018 to develop tools that simplify running nodes for evm blockchain networks.
+          We hold that the chief value proposition of public “decentralized” is minimizing dependencies on trusted 3rd parties.
+          <br />
+          <div style={{textAlign:"center"}} >
+            <img src={lowskislide} width="600" />
+          </div>
           <br /><br />
-          While most of the attention around blockchain networks has been focused on the blockchain part, at LowSki we’re all
-          about the networks. Public encrypted networks like Cardano are permission-less to join. If you have an
-          internet connection and modest hardware you simply host a node and become a peer in a secure distributed public network!
+          The decentralized nature of these networks and the ability to leverage that value proposition depend on direct user 
+          participation in the network by running nodes and developers building dApps that run entirely client-side and interact 
+          with the blockchain through the user’s node.
+          <br />
+          <div style={{textAlign:"center"}} >
+            <img src={sfdevpic} height="600" />
+          </div>
           <br /><br />
-          This stores a synced copy of the blockchain ledger on your local hardware and you get a network address which allows you to
-          send and receive data securely and privately from other peers in the network. Unfortunately, nodes haven’t been that simple to
-          host and even as user awareness and adoption have grown the number of nodes has decreased, requiring users to
-          rely on a remote connection to a 3rd party node host for their blockchain interactions. Not very trust minimized.
+          We made the decision to shutter Ethernode at the end of 2019 after clear evidence that there are not enough people serious 
+          about participating in decentralized, secure, p2p blockchain networks to justify pursuing the effort as a business.
+          <br />
+          <div style={{textAlign:"center"}} >
+          <img src={notice} />
+          </div>
           <br /><br />
-          We’re solving this problem by running your own nodes simple, convenient, and practical.
+          The resources we developed as Ethernode have always been open source and entirely free and will continue to be maintained, 
+          expanded, and available from our new github page at https://github.com/lowskidev
+          <br />
+          <div style={{textAlign:"center"}} >
+          <img src={freestuff} />
+          </div>
           <br /><br />
-          Currently we're just focusing on supporting the Cardano blockchain bu running a staking pool and relay nodes accross the USA.
+          We will be releasing OS images for the RockPro64 and pi4 soon so users can source the hardware of their choice and start running nodes and using the API and other utilities quickly and easily.
+          <br />
+          <div style={{textAlign:"center"}} >
+          <img src={rock64pro} />
+          </div>
           <br /><br />
-          To a future of effectively implemented trust minimization maximalism!
-          <br /><br />
-          -Team LowSki
-        </Typography>
+          The principles that drove us to undertake this endeavor haven’t changed and we won’t stop building. We’ll now being sharing our efforts as LowSki, just a couple of guys trying to contribute some value.
+      </Typography>
       </Container>
-      */}
-      {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
@@ -133,4 +145,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default EthernodePage;

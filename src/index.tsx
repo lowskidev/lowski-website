@@ -14,6 +14,7 @@ import EnuiPage from "./containers/SoftwarePage/EnuiPage";
 import EnapiPage from "./containers/SoftwarePage/EnapiPage";
 import EnosPage from "./containers/SoftwarePage/EnosPage";
 import StakePage from "./containers/StakePage/StakePage";
+import EthernodePage from "./containers/EtherNode/EthernodePage";
 const routing = (
   <ReusableProvider>
     <HashRouter>
@@ -31,6 +32,7 @@ const routing = (
         <Route path="/enkeep" component={EnkeepPage} />
         <Route path="/store" component={StorePage} />
         <Route path="/stakepage" component={StakePage} />
+        <Route path="/ethernodepage" component={EthernodePage} />
       </Switch>
     </HashRouter>
   </ReusableProvider>

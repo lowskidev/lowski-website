@@ -18,15 +18,15 @@ const tiers = [
   {
     title: "Bakon(BKN) Staking Pool",
     subheader: "Pool ID",
-    description: ["325589024a7d1c2415b7949b6e7767c022d22271c5658eb2fe46ab39721a0844"],
-    buttonText: "View On Pool Tool",
+    description: ["58a506b159a61262db300921b9dc87f0b8a21164ee084a3d8af56ead"],
+    buttonText: "View On Pool Tool 2 ",
     buttonVariant: "outlined",
-    link: "https://pooltool.io/pools",
+    link: "https://htn.pooltool.io/pool/58a506b159a61262db300921b9dc87f0b8a21164ee084a3d8af56ead/",
   },
   {
-    title: "Bakon(BKN) Explorer View",
+    title: "Bakon(BKN) Architecture",
     subheader: "cardano shelly explorer",
-    description: ["Checkout our staking pool on the Cardano Shelly incentivised testnet Explorer"],
+    description: ["Our staking pool is "],
     buttonText: "View On Explorer",
     buttonVariant: "contained",
     link: "https://shelleyexplorer.cardano.org/en/stake-pool/325589024a7d1c2415b7949b6e7767c022d22271c5658eb2fe46ab39721a0844/",
@@ -54,12 +54,9 @@ const StakePage: React.FC = () => {
           Cardano Bakon Stake Pool (BKN)
         </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          LowSki is also participating in the Cardano Shelly Incentivised test net by running our own staking pool on the EnKeep hardware.
-          For the testing phase we will be running a docker container between the enKeep hardware and a worker node in a data center for a fail over.
-          Even though the enKeep software is stable, the Jormungandr software is still in testing phases. This allows us to give our delegators the highest
-          possible up times achievable during a testing phase.
+          LowSki BAKON(BKN) pool has transitioned to the new Shelley haskell testnet in preperations for the mainnet/
           <br /><br />
-          Please check out the information below about our staking pool ID and how you can delegate your ADA to the Bakon staking pool.
+          Please check out the information below about our staking pool ID and how you can delegate your ADA to the BAKON(BKN) staking pool.
           <br /><br />
           -Team LowSki
         </Typography>
