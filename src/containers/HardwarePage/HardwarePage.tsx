@@ -18,17 +18,17 @@ import enKeepIcon from "../../assets/EnKeep_Icon_Text.png";
 const tiers = [
   {
     title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
-    subheader: "Hardware-Relay Node",
+    subheader: "Hardware- Relay Node",
     description: ["Rockchip RK3399 SOC", "4GB LPDDR4 RAM", "802.11 AC + BT 4.0/5.0", "NVMe SSD"],
     buttonText: "More Info",
     link: "enkeep",
   },
   {
     title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
-    subheader: "Hardware",
-    description: ["Rockchip RK3399 SOC", "4GB LPDDR4 RAM", "802.11 AC + BT 4.0/5.0", "NVMe SSD"],
-    buttonText: "More Info",
-    link: "enkeep",
+    subheader: "Hardware - Core Node",
+    description: ["264Gb", "Xeon", "NVMe SSDs"],
+    buttonText: "Coming Soon",
+    link: "",
   },
 ];
 
@@ -45,7 +45,7 @@ const HardwarePage: React.FC = () => {
           Hardware
         </Typography>
         <Typography align="center" color="textSecondary" component="p">
-          Hardware for next generation web3 technologies
+          Hardware used for our Stake Pool and Relays. (updates coming soon)
         </Typography>
       </Container>
       {/* End hero unit */}

@@ -68,8 +68,10 @@ const EnkeepPage: React.FC = () => {
           aria-label="scrollable auto tabs example"
         >
           <Tab label="EnKeep" {...a11yProps(0)} />
+          {/*
           <Tab label="The Future" {...a11yProps(1)} />
           <Tab label="Supported Blockchains" {...a11yProps(2)} />
+          */}
         </Tabs>
       </AppBar>
       <Container maxWidth="md" component="main" className={classes.heroContent}>
@@ -84,24 +86,8 @@ const EnkeepPage: React.FC = () => {
           <Typography align="left" color="textSecondary" component="p">
             The EnKeep is a Single Board computer based on the ROCKPro64 made by pine64.org
             It comes with 4GB of LDDR4 Ram and ARM64 Hexa-Core CPU.
-          </Typography>
-          <br />
-
-          <Typography align="left" color="textSecondary" component="p">
-            The EnKeep comes preloaded with EnOS, a Ubuntu based linux distro preloaded with
-            everything you need to run blockchain nodes.
-          </Typography>
-          <br />
-
-          <Typography align="left" color="textSecondary" component="p">
-            We have also developed a JSON-RPC2.0 API we call enAPI, which is written in nodeJS
-            and uses docker preloaded in EnOS to run blockchain nodes in.
-          </Typography>
-          <br />
-
-          <Typography align="left" color="textSecondary" component="p">
-            To controll all of this we have developed a UI called EnUI which connects to your EnKeep
-            and allows you to easily and run Ethereum based nodes for which we're currently utilizing Multi-Geth
+            
+            We have several of these accross the USA acting as our relay nodes.
           </Typography>
           <br />
         </TabPanel>
@@ -138,7 +124,7 @@ const EnkeepPage: React.FC = () => {
           <br />
 
           <Typography align="left" color="textSecondary" component="p">
-            Developers of different wallet applications and dapps have even went to extens of allowing users to run
+            Developers of different wallet applications and dapps have even went to extents of allowing users to run
             the node sfotware on their local computers, in light modes and fast sync modes. But lets be honest here.
             Syncing a blockchain node takes a toll on your system even if you're running 16Gb of DDR Ram and a
             beastul I7/I9 intel CPU. But like mentioned above, you're node can tkae hours or even days to sync.

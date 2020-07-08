@@ -26,18 +26,18 @@ const tiers = [
   {
     title: "Bakon(BKN) Architecture",
     subheader: "cardano shelly explorer",
-    description: ["Our staking pool is "],
-    buttonText: "View On Explorer",
+    description: ["Our staking pool is  setup between Docker swarms in Data cetners on the east coast and west coast wtih relay nodes in between."],
+    buttonText: "View Shelley PoolTool Block Explorer",
     buttonVariant: "contained",
-    link: "https://shelleyexplorer.cardano.org/en/stake-pool/325589024a7d1c2415b7949b6e7767c022d22271c5658eb2fe46ab39721a0844/",
+    link: "https://htn.pooltool.io/blocks",
   },
   {
     title: "Bakon(BKN) Pool Fees",
-    subheader: "Currently we run our Staking node in docker swarms between the enKeep and a VM in a data center for fail over during testing phases.",
-    description: ["Fixed Fee: .010000", "Variable Fee: 10.0%", "Fee Cap: 0"],
-    buttonText: "View On Explorer",
+    subheader: "Currently we run our Staking node at a Data center on what we like to call our Xeon beast and enKeep SBC's accross the USA as out relays..",
+    description: ["Fixed Fee: TBA", "Variable Fee: TBA", "Fee Cap: TBA"],
+    buttonText: "Check out BAKON pool on Adapools.org",
     buttonVariant: "contained",
-    link: "https://shelleyexplorer.cardano.org/en/stake-pool/325589024a7d1c2415b7949b6e7767c022d22271c5658eb2fe46ab39721a0844/",
+    link: "https://adapools.org/",
   },
 ];
 

@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
       <CssBaseline />
       <Navigation />
       {/* Hero unit */}
-      {/*
+      {
       <Container maxWidth="md" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
           Mission
@@ -94,7 +94,7 @@ const HomePage: React.FC = () => {
           -Team LowSki
         </Typography>
       </Container>
-      */}
+      }
       {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
