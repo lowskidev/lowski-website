@@ -1,7 +1,7 @@
 {
   "name": "@lowskidev/lowski-website",
   "version": "1.0.0",
-  "homepage": "https://lowski.dev/`",
+  "homepage": "https://lowski.dev/",
   "description": "LowSki Website",
   "main": "build/index.js",
   "scripts": {
