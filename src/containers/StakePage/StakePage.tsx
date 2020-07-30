@@ -18,26 +18,26 @@ const tiers = [
   {
     title: "Bakon(BKN) Staking Pool",
     subheader: "Pool ID",
-    description: ["58a506b159a61262db300921b9dc87f0b8a21164ee084a3d8af56ead"],
-    buttonText: "View On Pool Tool 2 ",
+    description: ["31d1d830873e05316b9a4b549617dc4a380b775e5431dfc13d312d88"],
+    buttonText: "Pooltool.io",
     buttonVariant: "outlined",
-    link: "https://htn.pooltool.io/pool/58a506b159a61262db300921b9dc87f0b8a21164ee084a3d8af56ead/",
+    link: "https://pooltool.io/pool/31d1d830873e05316b9a4b549617dc4a380b775e5431dfc13d312d88/",
   },
   {
-    title: "Bakon(BKN) Architecture",
-    subheader: "cardano shelly explorer",
-    description: ["Our staking pool is  setup between Docker swarms in Data cetners on the east coast and west coast wtih relay nodes in between."],
-    buttonText: "View Shelley PoolTool Block Explorer",
+    title: "Bakon(BKN) Infrastructure",
+    subheader: "Dedicated Hardware",
+    description: ["Bakon(BKN) runs on dedicated hardware in a data center with several relay nodes distributed in the Continental United States."],
+    buttonText: "Adapools.org",
     buttonVariant: "contained",
-    link: "https://htn.pooltool.io/blocks",
+    link: "Adapools.org",
   },
   {
     title: "Bakon(BKN) Pool Fees",
-    subheader: "Currently we run our Staking node at a Data center on what we like to call our Xeon beast and enKeep SBC's accross the USA as out relays..",
-    description: ["Fixed Fee: TBA", "Variable Fee: TBA", "Fee Cap: TBA"],
-    buttonText: "Check out BAKON pool on Adapools.org",
+    subheader: "",
+    description: ["Margin: 1.5%", "Fixed Cost: 420"],
+    buttonText: "",
     buttonVariant: "contained",
-    link: "https://adapools.org/",
+    link: "",
   },
 ];
 
@@ -54,9 +54,7 @@ const StakePage: React.FC = () => {
           Cardano Bakon Stake Pool (BKN)
         </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          LowSki BAKON(BKN) pool has transitioned to the new Shelley haskell testnet in preperations for the mainnet/
-          <br /><br />
-          Please check out the information below about our staking pool ID and how you can delegate your ADA to the BAKON(BKN) staking pool.
+          BAKON Stake Pool - Is a high performance pool ran by a couple of enthusiasts that love building stuff and supporting Cardano and its echo system.
           <br /><br />
           -Team LowSki
         </Typography>

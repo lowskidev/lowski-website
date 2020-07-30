@@ -85,9 +85,7 @@ const HomePage: React.FC = () => {
           host and even as user awareness and adoption have grown the number of nodes has decreased, requiring users to
           rely on a remote connection to a 3rd party node host for their blockchain interactions. Not very trust minimized.
           <br /><br />
-          We’re solving this problem by running your own nodes simple, convenient, and practical.
-          <br /><br />
-          Currently we're just focusing on supporting the Cardano blockchain bu running a staking pool and relay nodes accross the USA.
+          Currently we're just focusing on supporting the Cardano blockchain by running a staking pool and relay nodes accross the USA.
           <br /><br />
           To a future of effectively implemented trust minimization maximalism!
           <br /><br />
@@ -96,6 +94,7 @@ const HomePage: React.FC = () => {
       </Container>
       }
       {/* End hero unit */}
+      {/*
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
@@ -126,6 +125,7 @@ const HomePage: React.FC = () => {
           ))}
         </Grid>
       </Container>
+      */}
       {/* Footer */}
       <Footer />
     {/* End footer */}

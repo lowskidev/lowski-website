@@ -17,15 +17,15 @@ import enKeepIcon from "../../assets/EnKeep_Icon_Text.png";
 
 const tiers = [
   {
-    title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
-    subheader: "Hardware- Relay Node",
-    description: ["Rockchip RK3399 SOC", "4GB LPDDR4 RAM", "802.11 AC + BT 4.0/5.0", "NVMe SSD"],
+    title: "Core Node",
+    subheader: "Bare Metal",
+    description: ["2x Xeon E5-2670 16 Cores Each", "Total: 32 Logical Processors", "132GB DDR3", "2 x 1Tb NVMe SSDs in RAID1(Mirrored) config",  "2x 1Gbps ISP for redundancy"],
     buttonText: "More Info",
     link: "enkeep",
   },
   {
-    title: <img src={enKeepIcon} alt="enkeep icon" height="100" /> as any,
-    subheader: "Hardware - Core Node",
+    title: "Relay Nodes",
+    subheader: "ROCKPro64 SBCs",
     description: ["264Gb", "Xeon", "NVMe SSDs"],
     buttonText: "Coming Soon",
     link: "",

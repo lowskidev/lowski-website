@@ -9,7 +9,7 @@ import SoftwarePage from "./containers/SoftwarePage/SoftwarePage";
 import AboutUsPage from "./containers/AboutUsPage/AboutUsPage";
 import HardwarePage from "./containers/HardwarePage/HardwarePage";
 import StorePage from "./containers/StorePage/StorePage";
-import EnkeepPage from "./containers/HardwarePage/EnkeepPage";
+import HardwareSpecsPage from "./containers/HardwarePage/HardwareSpecsPage";
 import EnuiPage from "./containers/SoftwarePage/EnuiPage";
 import EnapiPage from "./containers/SoftwarePage/EnapiPage";
 import EnosPage from "./containers/SoftwarePage/EnosPage";
@@ -29,7 +29,7 @@ const routing = (
         <Route path="/enos" component={EnosPage} />
         <Route path="/aboutus" component={AboutUsPage} />
         <Route path="/hardware" component={HardwarePage} />
-        <Route path="/enkeep" component={EnkeepPage} />
+        <Route path="/enkeep" component={HardwareSpecsPage} />
         <Route path="/store" component={StorePage} />
         <Route path="/stakepage" component={StakePage} />
         <Route path="/ethernodepage" component={EthernodePage} />

@@ -9,24 +9,24 @@ import Grid from "@material-ui/core/Grid";
 const footers = [
   {
     title: "Company",
-    description: ["Team", "History", "Contact us"],
+    description: [
+      <a href="/" target="_blank" >Home</a>,
+      <a href="/stakepage" target="_blank">Pool</a>,
+      <a href="/enkeep" >Hardware</a>,
+    ],
   },
   {
     title: "Features",
-    description: ["Decentralized", "Open Source", "JSON-RPC API", "EVM Blockchains", "Multi Client Support"],
+    description: ["Bare Metal", "Decentrilized Relays", "Unstopable Infrastructure"],
   },
   {
     title: "Resources",
     description: [
-      <a href="https://www.github.com/ethernodeio/" target="_blank" >GitHub</a> as any,
-      <a href="https://twitter.com/Ethernode_io" target="_blank">Twitter</a>,
-      <a href="https://ethernode.io" >Home</a>,
+      <a href="https://github.com/lowskidev/" target="_blank" >GitHub</a> as any,
+      <a href="https://twitter.com/lowskidev" target="_blank">Twitter</a>,
+      <a href="https://lowski.dev" >Home</a>,
     ],
-  },
-  {
-    title: "Legal",
-    description: ["Privacy policy", "Terms of use"],
-  },
+  }
 ];
 
 export function Copyright() {
@@ -34,7 +34,7 @@ export function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link to="home">
-        EtherNode.io
+        LowSki.dev
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}

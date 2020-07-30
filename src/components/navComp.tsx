@@ -24,7 +24,7 @@ export const Navigation = () => {
           <Link to="/stakepage" className={classes.navlink}>
             <Button>Cardano Stake Pool</Button>
           </Link>
-          <Link to="/hardware" className={classes.navlink}>
+          <Link to="/enkeep" className={classes.navlink}>
             <Button>Hardware</Button>
           </Link>
           <Link to="/ethernodepage" className={classes.navlink}>
