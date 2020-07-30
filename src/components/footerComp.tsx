@@ -11,8 +11,8 @@ const footers = [
     title: "Company",
     description: [
       <a href="/" target="_blank" >Home</a>,
-      <a href="/stakepage" target="_blank">Pool</a>,
-      <a href="/enkeep" >Hardware</a>,
+      <a href="/#/stakepage" target="_blank">Pool</a>,
+      <a href="/#/enkeep" >Hardware</a>,
     ],
   },
   {
