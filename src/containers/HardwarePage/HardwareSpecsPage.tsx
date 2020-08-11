@@ -108,8 +108,6 @@ const HardwareSpecsPage: React.FC = () => {
             <br/><br/>
             Currently we run Two block producing VM's on Debian 10, that are set to take over for each other if one was to go down or lose connectivity,
             and 4 Debian10 based VM's for 4 relay nodes. That communicate between each other and also our core nodes.
-            <br/><br/>
-            Using this type of infrastructure on our main host machine, we are able to achieve a close to 100% uptime of our node hosting machines.
           </Typography>
           <br />
         </TabPanel>

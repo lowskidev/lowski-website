@@ -108,6 +108,7 @@ const EthernodePage: React.FC = () => {
           The principles that drove us to undertake this endeavor haven’t changed and we won’t stop building. We’ll now being sharing our efforts as LowSki, just a couple of guys trying to contribute some value.
       </Typography>
       </Container>
+      {/*
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
@@ -138,6 +139,7 @@ const EthernodePage: React.FC = () => {
           ))}
         </Grid>
       </Container>
+      */}
       {/* Footer */}
       <Footer />
     {/* End footer */}

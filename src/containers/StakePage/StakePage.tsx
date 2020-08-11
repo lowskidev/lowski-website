@@ -34,14 +34,14 @@ const tiers = [
   {
     title: "Bakon(BKN) Pool Fees",
     subheader: "",
-    description: ["Margin: 1.5%", "Fixed Cost: 420"],
+    description: ["Margin: 1.2%", "Fixed Cost: 420"],
     buttonText: "",
     buttonVariant: "contained",
     link: "",
   },
 ];
 
-const StakePage: React.FC = () => {
+const BakonPool: React.FC = () => {
   const classes = useStyles();
 
   return (
@@ -54,7 +54,7 @@ const StakePage: React.FC = () => {
           Cardano Bakon Stake Pool (BKN)
         </Typography>
         <Typography align="left" color="textSecondary" component="p">
-          BAKON Stake Pool - Is a high performance pool ran by a couple of enthusiasts that love building stuff and supporting Cardano and its echo system.
+          BAKON Stake Pool - Is a high performance pool ran by a couple of enthusiasts that love building stuff and supporting Cardano and its endeavour to decentralization.
           <br /><br />
           -Team LowSki
         </Typography>
@@ -85,7 +85,7 @@ const StakePage: React.FC = () => {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <a href={tier.link} target="_blank" ><Button fullWidth variant="outlined" color="primary">{tier.buttonText}</Button></a>
+                  {tier.link !== "" && <a href={tier.link} target="_blank" ><Button fullWidth variant="outlined" color="primary">{tier.buttonText}</Button></a>}
                 </CardActions>
               </Card>
             </Grid>
@@ -99,4 +99,4 @@ const StakePage: React.FC = () => {
   );
 };
 
-export default StakePage;
+export default BakonPool;

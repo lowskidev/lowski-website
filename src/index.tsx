@@ -13,7 +13,7 @@ import HardwareSpecsPage from "./containers/HardwarePage/HardwareSpecsPage";
 import EnuiPage from "./containers/SoftwarePage/EnuiPage";
 import EnapiPage from "./containers/SoftwarePage/EnapiPage";
 import EnosPage from "./containers/SoftwarePage/EnosPage";
-import StakePage from "./containers/StakePage/StakePage";
+import BakonPool from "./containers/StakePage/StakePage";
 import EthernodePage from "./containers/EtherNode/EthernodePage";
 const routing = (
   <ReusableProvider>
@@ -29,9 +29,9 @@ const routing = (
         <Route path="/enos" component={EnosPage} />
         <Route path="/aboutus" component={AboutUsPage} />
         <Route path="/hardware" component={HardwarePage} />
-        <Route path="/enkeep" component={HardwareSpecsPage} />
+        <Route path="/hardwareSpecs" component={HardwareSpecsPage} />
         <Route path="/store" component={StorePage} />
-        <Route path="/stakepage" component={StakePage} />
+        <Route path="/bakonPool" component={BakonPool} />
         <Route path="/ethernodepage" component={EthernodePage} />
       </Switch>
     </HashRouter>
