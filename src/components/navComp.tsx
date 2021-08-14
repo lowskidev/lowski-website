@@ -21,12 +21,14 @@ export const Navigation = () => {
           <Link to="/home" className={classes.navlink}>
             <Button>Home</Button>
           </Link>
+          {/*
           <Link to="/bakonPool" className={classes.navlink}>
             <Button>Bakon Stake Pool</Button>
           </Link>
           <Link to="/hardwareSpecs" className={classes.navlink}>
             <Button>Hardware</Button>
           </Link>
+          */}
           <Link to="/ethernodepage" className={classes.navlink}>
             <Button>Ethernode</Button>
           </Link>
